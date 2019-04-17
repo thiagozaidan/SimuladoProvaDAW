@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Exercício 16</title>
+	<meta charset="UTF-8">
+	<meta name="Description" content="Cadastro">
+	<meta name="Keywords" content="HTML,WEB">
+    <meta name="Author" content="Thiago Cassiano Campos Abreu">
+    
+        <link rel="stylesheet" type="text/css" href="exercicio16.css">
+<head>
+
+<body>
+    <h1>Escola Virtual</h1>
+    <br>
+    <h2>Formulário de Pré-Matrícula</h2>
+    <br>
+    <hr>
+    <form id="form">
+    <fieldset>
+        <h3>Dados Pessoais</h3>
+            <label>Nome do Aluno:</label><input class="nome" type="text"><br><br>
+            <label>Nascimento (dd/mm/aaaa):</label><input class="dia" type="text">
+            <label id="barra0">/</label><input class="mes" type="text">
+            <label id="barra1">/</label><input class="ano" type="text">
+            <br><br>
+            <label>Nome da Mãe:</label><input class="mae" type="text"><br><br>
+            <label>Nome do Pai:</label><input class="pai" type="text"><br><br>
+            <label>Telefone: DDD (</label><input class="ddd" type="text">
+            <label id="tel">) Tel:</label><input class="tel" type="text">
+            <label id="ramal"> Ramal:</label><input class="ramal" type="text">            
+            <br><br>            
+            <label>Email:</label><input class="email" type="email"><br><br>
+             </fieldset>
+            
+             <fieldset>
+                 <h3>Informações de Matrícula:</h3>
+                 <label id="serie">Série:</label><br>
+                 <select id="select">
+                     <option>pré-escolar</option>
+                     <option>ensino fundamental</option>
+                     <option>ensino médio</option>
+                 </select>
+                 <label id="turno">Turno:</label>
+                 <input id="checkm" type="radio" name="manha" value="m">
+                 <label id="manha">Manhã</label><br>
+                 <input id="checkt" type="radio" name="manha" value="m">
+                 <label id="tarde">Tarde</label><br>
+                 <label id="atv">Atividades Extracurriculares:</label><br>
+                 <input id="checkinfo" type="checkbox" name="manha" value="m">
+                 <label id="info">Informática</label>
+                 <input id="checkmus" type="checkbox" name="manha" value="m">
+                 <label id="mus">Música</label>
+                 <input id="checkbal" type="checkbox" name="manha" value="m">
+                 <label id="bal">Ballet</label>
+                 <input id="checkpin" type="checkbox" name="manha" value="m">
+                 <label id="pin">Pintura</label>
+                 <input id="checkjudo" type="checkbox" name="manha" value="m">
+                 <label id="judo">Judô</label>
+                 <input id="checkfut" type="checkbox" name="manha" value="m">
+                 <label id="fut">Futebol</label>
+                 <br>
+                 <br>
+                 </fieldset>
+          </form>
+          <br>
+          <input id="botao1" type="submit" name="enviar" value="Enviar Formulário">
+          <input id="botao2" type="submit" name="limpar" value="Limpa Campos">
+          
+<body>
+
+<html>

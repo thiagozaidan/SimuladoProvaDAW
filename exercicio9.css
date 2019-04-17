@@ -1,0 +1,10 @@
+a:link, a:visited, a:active{
+    color: #800000;
+    size: 8px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #800000;
+    font-weight: bold;
+}

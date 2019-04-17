@@ -1,0 +1,14 @@
+body{
+    background-color: blue;
+}
+
+h1{
+    font-family:impact; 
+    background:yellow;
+    color:red;
+    text-align: center;
+}
+    
+p{
+    color: green;
+}
